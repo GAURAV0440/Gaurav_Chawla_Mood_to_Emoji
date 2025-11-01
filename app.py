@@ -1,6 +1,13 @@
 import streamlit as st
 from better_profanity import profanity
 from nltk.sentiment import SentimentIntensityAnalyzer
+import nltk
+
+# Ensure VADER is available (auto-download if missing)
+try:
+    nltk.data.find('sentiment/vader_lexicon.zip')
+except LookupError:
+    nltk.download('vader_lexicon')
 
 # --- Setup ---
 st.set_page_config(page_title="Mood2Emoji", page_icon="😀", layout="centered")
