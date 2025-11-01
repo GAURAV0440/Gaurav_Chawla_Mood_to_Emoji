@@ -2,6 +2,8 @@
 Made by: Gaurav Chawla
 For: Codingal Curriculum Developer (AI & Coding) Internship
 
+## Streamlit Link: https://gauravchawlamoodtoemoji.streamlit.app/
+
 ## 🎯 Project Goal
 To build a simple AI web app that reads a short sentence and shows a kid-friendly emoji (😀 😐 😞) with a one-line explanation — suitable for students aged 12–16.
 
@@ -74,3 +76,4 @@ You are stupid	😐 Let's use nice words only!
 # Conclusion:
 Mood2Emoji is a fun, safe and educational AI project that helps students understand how computers can read human emotions using text.
 It’s simple, accurate and encourages kids to learn AI with creativity.
+
